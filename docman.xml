@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="community" method="upgrade">
+	<name>Community - Docman</name>
+	<author>Chris French</author>
+	<creationDate>Febraury 2013</creationDate>
+	<copyright>Copyright 2013 - Dioscouri Design</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>cfrench@dioscouri.com</authorEmail>
+	<authorUrl>http://www.dioscouri.com</authorUrl>
+	<version>0.1.0</version>
+	<isapplication>true</isapplication>
+	<description>PLG_COMMUNITY_DOCMAN_DESCRIPTION</description>
+	<languages>
+		<language tag="en-GB">lang/en-GB.plg_community_docman.ini</language>
+		<language tag="en-GB">lang/en-GB.plg_community_docman.sys.ini</language>
+	</languages>
+ 
+	<files>
+		<file plugin="docman">docman.php</file>
+		<folder>docman</folder>
+	</files>
+ 
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>
